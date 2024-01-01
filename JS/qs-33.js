@@ -17,4 +17,4 @@ const products = [
 ]
 
 const sortedProducts = products.sort((a, b) => b.price - a.price);
-console.log(sortedProducts);
+console.log("sorted Products:", sortedProducts);
