@@ -12,7 +12,7 @@ const sortedCars = cars.sort((a, b) => {
     } else if (a.length > b.length) {
         return 1;
     } else {
-        // If lengths are equal, maintain relative order
+        // If lengths are equal
         return cars.indexOf(a) - cars.indexOf(b);
     }
 });
